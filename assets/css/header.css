@@ -10,7 +10,7 @@ header {
     right: 0;
     z-index: 999;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    background-color: #3d0202;
+    background-color: linear-gradient(90deg,rgb(248, 147, 133) 0%, rgb(153, 242, 248) 50%, rgb(247, 223, 92) 100%);
     padding: 15px 0;
     position: fixed;
 }
@@ -89,10 +89,15 @@ header {
 
 
 .menu-list li a {
-    color: #fff;
+    color: rgb(3, 2, 83);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
+    text-shadow: 
+        1px 1px 0 #fff,
+       -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+       -1px 1px 0 #fff;
 }
 
 .menu-list li a:hover {

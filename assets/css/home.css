@@ -53,9 +53,8 @@
     padding: 40px;
     z-index: 2;
     text-align: center;
-    background: rgba(107, 2, 2, 0.6);
-    border-radius: 5px 20px;
-
+    background: rgba(9, 91, 233, 0.9);
+    border-radius: 30px;
 }
 
 .slide-content h1 {
@@ -70,12 +69,12 @@
 }
 
 .slide-content a {
-    background-color: #ff6600;
+    background-color: #ff14b1;
     border: none;
     padding: 12px 25px;
     font-size: 1rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -128,13 +127,12 @@
 }
 
 .partner-card {
-    background: linear-gradient(90deg,rgba(237, 221, 83, 0.2) 0%, rgba(87, 199, 133, 0.3) 50%, rgba(42, 123, 155, 0.1) 100%);
     padding: 20px;
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: 0 10px 20px rgba(3, 27, 68, 0.037);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100px;
-    border: 3px double #f74c09;
+    border: 3px solid #ccc;
 }
 
 .partner-card:hover {
@@ -296,13 +294,17 @@
 .btn-about {
     display: inline-block;
     padding: 12px 25px;
-    background: #ff6600;
+    background: #ff14b1;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     transition: background 0.3s;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px
 }
+
 
 .btn-about:hover {
     background: #9b0404;
@@ -574,7 +576,7 @@
 
 .contact-form button {
     padding: 14px;
-    background-color: #ff6600;
+    background-color: #ff14b1;
     color: white;
     border: none;
     border-radius: 10px;
@@ -666,7 +668,7 @@
 
 .price-btn {
     display: inline-block;
-    background-color: #ff6600;
+    background-color: #ff14b1;
     color: #fff;
     padding: 12px 25px;
     border-radius: 8px;
